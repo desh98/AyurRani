@@ -8,12 +8,12 @@
   .container1 {
     position: relative;
     width: 25%;
-    margin: 50px auto;
   }
   
   .image3 {
     display: block;
     width: 100%;
+    
   }
   
   .overlay {
@@ -26,11 +26,11 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #b6e7c9;
+    background-color: #00db54;
   }
   
   .container1:hover .overlay {
-    opacity: 80%;
+    opacity: 1;
   }
   
   .text {
@@ -44,4 +44,4 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
+  
